@@ -1,0 +1,93 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic' ;
+}
+body{
+    background-image: url("../Image/road.jpeg");
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 5px; 
+    margin-left: 10px;
+       
+}
+.banner > *{
+    display: flex;
+    justify-content: center;
+}
+
+#banner_two{
+    
+    height: 70vh;
+    padding-top: 70px;
+    margin-bottom: 10px;
+    
+}
+
+h1.a1{
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+h2.a1{
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+.box{
+    width: 500px;
+    height: 500px;
+    margin-top: 5%;
+    opacity: 100%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 25%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.box1{
+    width: 500px;
+    height: 500px;
+    margin-top: 5%;
+    opacity: 60%;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 75%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+h1.a1{
+    text-decoration: none;
+}
